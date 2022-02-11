@@ -1,0 +1,11 @@
+.correct-answer {
+  color: var(--success);
+}
+
+.wrong-answer {
+  color: var(--danger);
+}
+
+.skip-question {
+  color: var(--warning);
+}

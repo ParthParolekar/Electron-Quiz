@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./app.css" />
+    <link rel="stylesheet" href="../../app.css" />
 
     <link
       rel="stylesheet"
@@ -26,24 +26,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Electron Quiz</title>
+    <title>Rules</title>
   </head>
   <body>
     <main>
-      <div class="message-container welcome-message-container">
-        <h2 class="black">Welcome to Electron Quiz</h2>
-        <p class="text-sm welcome-message">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-          magnam explicabo tempora iure odio consequatur cupiditate a aut
-          fugiat, adipisci temporibus, laborum voluptatem assumenda repudiandae
-          quis exercitationem sint, ut neque repellat hic quibusdam aspernatur.
-          Est laborum officia mollitia repudiandae unde fugiat asperiores, et
-          ullam ducimus, ab accusantium amet, quod porro.
-        </p>
-
-        <a href="./pages/category/category.html"
-          ><button class="btn btn-primary">Get Started</button></a
-        >
+      <div class="message-container rules-container">
+        <h2 class="mg-md-top-bottom">The rules are simple</h2>
+        <div class="points-sysytem">
+          <p class="text-md correct-answer">
+            Correct Answer: <strong>+2 points</strong>
+          </p>
+          <p class="text-md wrong-answer">
+            Wrong Answer: <strong>-1 points</strong>
+          </p>
+          <p class="text-md skip-question">
+            Skip Question: <strong>0 points</strong>
+          </p>
+        </div>
+        <div class="button-container mg-md-top-bottom">
+          <button class="btn btn-primary">Start the quiz</button>
+          <a href="../category/category.html"
+            ><button class="btn btn-outline-primary">
+              Select another quiz
+            </button></a
+          >
+        </div>
       </div>
     </main>
   </body>
