@@ -1,0 +1,41 @@
+@import "./pages/pages.css";
+
+:root {
+  --shadow: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 80%;
+}
+
+.message-container {
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+  width: 70vw;
+  margin: 6rem auto 0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.welcome-message {
+  margin: 3rem 0;
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 100%;
+  }
+}
