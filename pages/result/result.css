@@ -1,0 +1,16 @@
+.user-correct-answer {
+  background-color: var(--success);
+}
+
+.user-wrong-answer {
+  background-color: var(--danger);
+}
+
+.result-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.final-score {
+  margin: 0 auto;
+}
